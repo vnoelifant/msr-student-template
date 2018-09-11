@@ -27,14 +27,15 @@ To install from `apt-get`, you can just run
 sudo apt-get install ruby ruby-dev nodejs nodejs-dev jekyll
 ```
 
-On Ubuntu 14.04, the versions of `ruby` and `jekyll` that are on `apt-get` are a
-bit out of date. Thus even, if you install all of the packages from `apt-get`
-using the above command, you are likely to get errors when running commands in
-the [Local previewing](#local-previewing) section below. If you see errors about
-the `--watch` variable when running `jekyll build --watch`, run the following
-commands to use `rvm` (Ruby Version Manager) to install a new version of `ruby`
-and `jekyll`. Note, in Ubuntu 16.04 the versions of `ruby` and `jekyll` seem to
-be up-to-date enough to avoid any issues.
+#### Older Ubuntu Issues
+
+On older versions of Ubuntu (e.g. 14.04), the versions of `ruby` and `jekyll`
+that are on `apt-get` are a bit out of date. Thus even, if you install all of
+the packages from `apt-get` using the above command, you are likely to get
+errors when running commands in the [Local previewing](#local-previewing)
+section below. If you see errors about the `--watch` variable when running
+`jekyll build --watch`, run the following commands to use `rvm` (Ruby Version
+Manager) to install a new version of `ruby` and `jekyll`.
 
 ```shell
 1 $  sudo apt-get install libgdbm-dev libncurses5-dev automake libtool bison \

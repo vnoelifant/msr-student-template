@@ -24,7 +24,7 @@ To test your website locally, you will need the following packages:
 To install from `apt-get`, you can just run
 
 ```
-sudo apt-get install ruby ruby-dev nodejs nodejs-dev jekyll
+sudo apt-get install ruby ruby-dev nodejs jekyll
 ```
 
 #### Older Ubuntu Issues
